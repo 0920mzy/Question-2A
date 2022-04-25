@@ -24,7 +24,8 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "RABBITMQ_CONN": "host=localhost:31672;virtualHost=/;username=guest;password=guest"
       }
     }
   }
